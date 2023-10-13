@@ -1,0 +1,116 @@
+.portfolio-content {
+   min-height: 100vh;
+   width: 80vw;
+   margin-left: 10vw;
+   text-align: center;
+}
+.port-text {
+   padding: 2rem 0;
+   text-align: center;
+   color: aquamarine;
+}
+
+.portfolios {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 2rem;
+   margin-top: 3rem;
+}
+.portfolios .portfolio-item {
+   position: relative;
+   border-radius: 15px;
+}
+.portfolios .portfolio-item img {
+   width: 95%;
+   height: 300px;
+   object-fit: cover;
+   border-radius: 15px;
+}
+.portfolios .portfolio-item .hover-items {
+   width: 100%;
+   height: 100%;
+   background-color: aquamarine;
+   position: absolute;
+   left: 0;
+   top: 0;
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   opacity: 0;
+   transform: scale(0);
+   transition: all 0.4s ease-in-out;
+}
+.portfolios .portfolio-item .hover-items h3 {
+   font-size: 1.5rem;
+   color: black;
+   margin-bottom: 1.5rem;
+}
+.portfolios .portfolio-item .hover-items .icons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.portfolios .portfolio-item .hover-items .icons .icon {
+   background-color: #191d2b;
+   color: aquamarine;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 1rem;
+   cursor: pointer;
+   transition: all 0.4s ease-in-out;
+}
+.portfolios .portfolio-item .hover-items .icons .icon i {
+   font-size: 1.5rem;
+   color: rgb(249, 249, 109);
+   margin: 0 1rem;
+}
+.portfolios
+   .portfolio-item
+   .hover-items
+   .icons
+   .icon:hover {
+   background-color: rgb(250, 73, 73);
+}
+.portfolios
+   .portfolio-item
+   .hover-items
+   .icons
+   .icon:hover
+   .i {
+   color: #191d2b;
+}
+
+.portfolio-item:hover .hover-items {
+   opacity: 1;
+   transform: scale(1);
+}
+@media only screen and (max-width:500px) {
+   .portfolio-content {
+      max-width: 500px;
+      width: 90%;
+      margin-left: 20px;
+      margin-top: 10px;
+      text-align: center;
+   }
+   .portfolios {
+      display: block;
+      margin-top: 2rem;
+   }
+   .portfolios .portfolio-item {
+      position: relative;
+      border-radius: 15px;
+   }
+   .portfolios .portfolio-item img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-bottom: 10px;
+   }
+}

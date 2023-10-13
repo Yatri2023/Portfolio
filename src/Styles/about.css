@@ -1,0 +1,186 @@
+.about-content {
+   min-height: 100vh;
+   width: 70vw;
+   margin-left: 15vw;
+   text-align: center;
+}
+.about-container {
+   padding-top: 3.5rem;
+   text-align: left;
+   padding-bottom: 5rem;
+}
+.about-container .right-about {
+   width: 80%;
+   margin-top: 3rem;
+   margin-left: 5%;
+   position: relative;
+   padding-top: 3rem;
+}
+.about-container .left-about {
+   width: 100%;
+   padding-right: 5rem;
+  color: aquamarine
+}
+.about-container .left-about p {
+   line-height: 2rem;
+   padding: 1rem;
+   text-justify: auto;
+   color: rgb(249, 249, 109);
+}
+.about-container .left-about h4 {
+   font-size: 2rem;
+   text-transform: uppercase;
+}
+.right-about {
+   padding-bottom: 4rem;
+   color: aquamarine
+}
+.right-about .progress-bars {
+   display: grid;
+   grid-template-columns: 50% 50%;
+   grid-gap: 2rem;
+   color: aquamarine
+}
+.right-about .progress-bars .progress-bar {
+   display: flex;
+   flex-direction: column;
+   margin-top: 1rem;
+   margin-top: 2rem;
+}
+.right-about .progress-bars .progress-bar .prog-title {
+   text-transform: uppercase;
+   font-weight: 500;
+}
+.right-about .progress-bars .progress-bar .progress-con {
+   display: flex;
+   align-items: center;
+}
+.right-about
+   .progress-bars
+   .progress-bar
+   .progress-con
+   .prog-text {
+  color: aquamarine
+}
+.right-about
+   .progress-bars
+   .progress-bar
+   .progress-con
+   .progress {
+   width: 100%;
+   height: 0.45rem;
+   background-color: #454e56;
+   margin-left: 1rem;
+   position: relative;
+}
+.right-about
+   .progress-bars
+   .progress-bar
+   .progress-con
+   .progress
+   span {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   background-color: rgb(249, 249, 109);
+   transition: all 0.4s ease-in-out;
+   width: 60%;
+}
+.right-about
+   .progress-bars
+   .progress-bar
+   .progress-con
+   .progress
+   .html {
+   width: 80%;
+}
+.right-about
+   .progress-bars
+   .progress-bar
+   .progress-con
+   .progress
+   .css {
+   width: 95%;
+}
+.right-about
+   .progress-bars
+   .progress-bar
+   .progress-con
+   .progress
+   .js {
+   width: 75%;
+}
+.right-about
+   .progress-bars
+   .progress-bar
+   .progress-con
+   .progress
+   .react {
+   width: 60%;
+}
+.right-about
+   .progress-bars
+   .progress-bar
+   .progress-con
+   .progress
+   .node {
+   width: 87%;
+}
+.right-about
+   .progress-bars
+   .progress-bar
+   .progress-con
+   .progress
+   .python {
+   width: 70%;
+}
+
+.stat-title {
+   text-transform: uppercase;
+   font-size: 1.6rem;
+   text-align: center;
+}
+.stat-title::before {
+   content: "";
+   position: absolute;
+   left: 50%;
+   top: 0;
+   width: 40%;
+   height: 1px;
+   background-color: #2a2e35;
+   transform: translateX(-50%);
+}
+@media only screen and (max-width:500px) {
+   .about-content {
+      text-align: center;
+      margin: 20px;
+      width: 98%;
+   }
+   .about-container .right-about {
+      margin-top: 3rem;
+      margin-left: 5%;
+      padding-top: 3rem;
+   }
+   .about-container .left-about h4 {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+   }
+}
+@media only screen and (max-width:800px) {
+   .about-content {
+      text-align: center;
+      margin: 20px;
+      width: 100%;
+      max-width: 800px;
+   }
+   .about-container .right-about {
+      margin-top: 3rem;
+      margin-left: 5%;
+      padding-top: 3rem;
+   }
+   .about-container .left-about h4 {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+   }
+}

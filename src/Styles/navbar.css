@@ -1,0 +1,105 @@
+.navbar{
+    display: flex;
+    padding: 15px;
+    width: 100%;
+    background-color: #191d2b;
+}.t1{
+    display: inline-block;
+    font-size: 1.5rem ;
+}
+.name-logo{
+    margin-left: 5px;
+    font-family: cursive;
+    font-size: 2rem;
+}
+.logo_1{
+    color:aquamarine;
+}
+.logo_2{
+    color: rgb(249, 249, 109);
+}
+.button-group{
+    margin-left: 30rem;
+}
+.btn{ 
+    padding: 5px;
+    margin-right: 10px;
+    color: aquamarine;
+    background-color: transparent;
+    border: none;
+    font-family: "monospace";
+}
+.btn:hover{
+    color: rgb(249, 249, 109);
+    border-bottom: 2px solid rgb(249, 249, 109);
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+@media only screen and (max-width:500px) {
+    .navbar{
+        display: flex;
+        padding: 5px;
+        width: 100%;
+        background-color: #191d2b;
+    }
+    .name-logo{
+        margin-left: 5px;
+        font-size: 2rem;
+    }
+    .t1{
+        display:none;
+        bottom: 0;
+    }
+    .button-group{
+        margin-left: 100px;
+    }
+    .btn{ 
+        padding: 5px;
+        margin-right: 5px;
+        color: aquamarine;
+        background-color: transparent;
+        border: none;
+        font-family: "monospace";
+    }
+    .btn:hover{
+        color: rgb(249, 249, 109);
+        border-bottom: 2px solid rgb(249, 249, 109);
+        font-weight: 200;
+        padding-bottom: 10px;
+    }
+}
+@media only screen and (max-width:800px) {
+    /* For mobile phones: */
+    .navbar{
+        display: flex;
+        padding: 5px;
+        width: 100%;
+        max-width: 800px;
+        background-color: #191d2b;
+    }
+    .name-logo{
+        margin-left: 5px;
+        font-size: 2rem;
+    }
+    .t1{
+        display:none;
+        bottom: 0;
+    }
+    .button-group{
+        margin-left: 300px;
+    }
+    .btn{ 
+        padding: 5px;
+        margin-right: 5px;
+        color: aquamarine;
+        background-color: transparent;
+        border: none;
+        font-family: "monospace";
+    }
+    .btn:hover{
+        color: rgb(249, 249, 109);
+        border-bottom: 2px solid rgb(249, 249, 109);
+        font-weight: 200;
+        padding-bottom: 10px;
+    }
+  }

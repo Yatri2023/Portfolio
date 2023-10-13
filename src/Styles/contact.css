@@ -1,0 +1,185 @@
+.contact-content {
+   min-height: 100vh;
+   width: 60vw;
+   margin-left: 20vw;
+   text-align: center;
+}
+.contact-content-con {
+   padding-top: 1rem;
+}
+.contact-content-con .left-contact {
+   flex: 2;
+}
+.contact-content-con .left-contact h4 {
+   margin-top: 1rem;
+   font-size: 1rem;
+   text-transform: uppercase;
+   color: aquamarine;
+}
+.contact-content-con .left-contact p {
+   margin: 1rem 0;
+   line-height: 2rem;
+}
+.contact-content-con
+   .left-contact
+   .contact-info
+   .contact-item {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: rgb(249, 249, 109);
+}
+.contact-content-con
+   .left-contact
+   .contact-info
+   .contact-item
+   p {
+   margin: 0.3rem 0 !important;
+   padding: 0 !important;
+}
+.contact-content-con
+   .left-contact
+   .contact-info
+   .contact-item
+   .icon {
+   display: grid;
+   grid-template-columns: 40px 1fr;
+}
+.contact-content-con
+   .left-contact
+   .contact-info
+   .contact-item
+   .icon
+   i {
+   display: flex;
+   align-items: center;
+   font-size: 1.3rem;
+}
+.contact-content-con .left-contact .contact-icon {
+   display: flex;
+   margin-top: 2rem;
+}
+.contact-content-con .left-contact .contact-icon a {
+   display: flex;
+   align-items: center;
+   color: aquamarine;
+   background-color: #2a2e35;
+   cursor: pointer;
+   justify-content: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin: 0 0.4rem;
+   transition: all 0.4s ease-in-out;
+}
+.contact-content-con .left-contact .contact-icon a:hover {
+   background-color: aquamarine;
+   color: #191d2b;
+}
+.contact-content-con .left-contact .contact-icon a:hover i {
+   color: #191d2b;
+}
+.contact-content-con .left-contact .contact-icon a i {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.3rem;
+}
+.contact-content-con .right-contact {
+   margin-left: 3rem;
+}
+.contact-content-con .right-contact .input-control {
+   margin: 1.5rem 0;
+}
+.contact-content-con .right-contact .input-control input,
+.contact-content-con
+   .right-contact
+   .input-control
+   textarea {
+   border-radius: 30px;
+   font-weight: inherit;
+   font-size: inherit;
+   font-family: inherit;
+   padding: 0.8rem 1.1rem;
+   outline: none;
+   border: none;
+   background-color: #2a2e35;
+   width: 100%;
+   color: #ffffff;
+   resize: none;
+}
+.contact-content-con .right-contact .i-c-2 {
+   display: flex;
+}
+.contact-content-con .right-contact .i-c-2 :last-child {
+   margin-left: 1.5rem;
+}
+.contact-content-con .right-contact .submit-btn {
+   display: flex;
+   justify-content: flex-start;
+}
+.btn-con {
+   display: flex;
+   align-self: flex-start;
+}
+.main-btn {
+   border-radius: 30px;
+   color: inherit;
+   font-weight: 600;
+   position: relative;
+   border: 2px solid aquamarine;
+   display: flex;
+   align-self: flex-start;
+   align-items: center;
+   overflow: hidden;
+}
+.main-btn .btn-text {
+   padding: 0 2rem;
+   color: rgb(249, 249, 109);
+}
+@media only screen and (max-width: 500px) {
+   .contact-content {
+      width: 90%;
+      max-width: 500px;
+      margin-left: 30px;
+      text-align: center;
+   }
+   .contact-content-con
+      .left-contact
+      .contact-info
+      .contact-item {
+      align-items: center;
+      justify-content: space-between;
+      color: rgb(249, 249, 109);
+   }
+   .contact-content-con .right-contact {
+      margin-left: 0;
+   }
+
+   .contact-content-con .right-contact .i-c-2 :last-child {
+      margin-left: 0.5rem;
+   }
+}
+@media only screen and (max-width: 800px) {
+   .contact-content {
+      width: 90%;
+      max-width: 800px;
+      margin-left: 30px;
+      text-align: center;
+   }
+   .contact-content-con
+      .left-contact
+      .contact-info
+      .contact-item {
+      align-items: center;
+      justify-content: space-between;
+      color: rgb(249, 249, 109);
+   }
+   .contact-content-con .right-contact {
+      margin-left: 0;
+   }
+
+   .contact-content-con .right-contact .i-c-2 :last-child {
+      margin-left: 0.5rem;
+   }
+}
